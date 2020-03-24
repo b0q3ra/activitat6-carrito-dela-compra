@@ -1,21 +1,37 @@
 input {
   border: solid 1px black;
+  width:25%;
+  &#item-name-create{width:75%}
 }
 
 .container {
+    width: 80%;
+    margin:auto;
 
 }
 
-.info-container {
-
+ 
+.row,.row-create {
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: space-between;
+&-create{
+    justify-content: center;
+}
 }
 
-.item {
-
+.col{
+    padding: 5px;
+    width: 15%;
+    text-align: right;
+    &-create{
+      width: 25%;
+    }
 }
 
-.row {
-
+.total-item{
+    text-align: right;
 }
 
 
@@ -51,6 +67,11 @@ input {
     color: #fff;
     background-color: #CF000F;
     border-color: #CF000F;
+}
+.btn-create {
+  color: #fff;
+  background-color: #5cb85c;
+    border-color: #4cae4c;
 }
 
 .quantity {

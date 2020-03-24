@@ -1,0 +1,94 @@
+input {
+  border: solid 1px black;
+  width: 25%;
+}
+
+input#item-name-create {
+  width: 75%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.row, .row-create {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.row-create, .row-create-create {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.col {
+  padding: 5px;
+  width: 15%;
+  text-align: right;
+}
+
+.col-create {
+  width: 25%;
+}
+
+.total-item {
+  text-align: right;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-delete {
+  color: #fff;
+  background-color: #CF000F;
+  border-color: #CF000F;
+}
+
+.btn-create {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.quantity {
+  margin: 0 5px;
+}
+/*# sourceMappingURL=style.css.map */
